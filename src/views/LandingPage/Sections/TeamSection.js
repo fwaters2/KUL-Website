@@ -38,7 +38,7 @@ export default function TeamSection() {
       <h2 className={classes.title}>Our Spring 2020 Team Managers</h2>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={eric} alt="..." className={imageClasses} />
@@ -50,10 +50,10 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Fresh of his MVP season, Eric stepping up to lead his own KUL
+                  team for the first time this season. He has led other teams in
+                  the area and we look forward to seeing his experience in
+                  action!
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -69,7 +69,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={hannah} alt="..." className={imageClasses} />
@@ -81,10 +81,9 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Another first time manager, Hannah is also very new to the
+                  sport, but has picked it up very quickly and her enthusiasm is
+                  bound to rub off on her team!
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -100,7 +99,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={john} alt="..." className={imageClasses} />
@@ -112,10 +111,9 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  First time manager as well, John was a true rookie last season
+                  (never played organized Ultimate before) and came in a very
+                  close second in the MVP race.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -131,7 +129,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={julia} alt="..." className={imageClasses} />
@@ -162,7 +160,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={lucas} alt="..." className={imageClasses} />
@@ -193,7 +191,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={mike} alt="..." className={imageClasses} />
@@ -238,7 +236,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={tim} alt="..." className={imageClasses} />

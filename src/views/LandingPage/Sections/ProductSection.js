@@ -22,11 +22,11 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>What is Ultimate Frisbee?</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Ultimate Frisbee is non-contact, co-ed, team sport played with a
+            disc. Points are scored by passing the disc to a teammate in the
+            opposing end zone while the other team attempts to deflect or
+            intercept the disc. It is also completely self-officiated and relies
+            on Spirit of the Game to promote fairness and sportsmanship
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,7 +35,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Social"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              description="All players sign up individually and are placed on new, balanced teams each season so there is always someone new to meet"
               icon={Group}
               iconColor="info"
               vertical
@@ -44,7 +44,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Active"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              description="Looking to get in better shape? There is a LOT of running in Ultimate and you will have a lot support from your new teammates!"
               icon={DirectionsRun}
               iconColor="success"
               vertical
@@ -53,7 +53,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Inclusive"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              description="We are very proud of the diversity of our players from all over the world and their wide range of skill level. We welcome new players as well as seasoned veterans!"
               icon={Favorite}
               iconColor="danger"
               vertical
