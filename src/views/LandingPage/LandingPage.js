@@ -47,18 +47,18 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Welcome to the community!</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                KUL is a local recreational Ultimate Frisbee league for locals
+                and expats to meet new friends and get some exercise! Each
+                season everyone signs up as an individual to be drafted to a new
+                team. What are you waiting for?
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=jorpW3z_AxA&t=11s"
                 target="_blank"
                 rel="noopener noreferrer"
               >
