@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Event, Room } from "@material-ui/icons";
+import { Event, LocationOn } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -37,14 +37,19 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
+        <Link
+          to={"/location"} //className={classes.link}
+          style={{ color: "unset" }}
         >
-          <Room /> Location
-        </Button>
+          <Button
+            //href="www.google.com"
+            color="transparent"
+            //target="_blank"
+            className={classes.navLink}
+          >
+            <LocationOn /> Location
+          </Button>
+        </Link>
       </ListItem>
       {/* <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">

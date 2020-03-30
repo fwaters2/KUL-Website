@@ -113,7 +113,7 @@ export default function TeamSection() {
                 <p className={classes.description}>
                   First time manager as well, John was a true rookie last season
                   (never played organized Ultimate before) and came in a very
-                  close second in the MVP race.
+                  close second in the MVP race. Here
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
