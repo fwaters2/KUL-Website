@@ -43,7 +43,8 @@ const headerIcon = {
     color: grayColor
   },
   iconContainer: {
-    background: "lightGrey",
+    background:
+      "radial-gradient(closest-side, white 69%, gainsboro 70% 80%, white 80% 90%, lightgrey 100%)",
     width: "160px",
     height: "160px",
     margin: "auto",

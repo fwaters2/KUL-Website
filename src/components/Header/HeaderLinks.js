@@ -19,6 +19,7 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
+import Info from "components/Typography/Info";
 
 const useStyles = makeStyles(styles);
 
@@ -27,14 +28,19 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href="www.google.com"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
+        <Link
+          to={"/schedule"} //className={classes.link}
+          style={{ color: "unset" }}
         >
-          <Event /> Schedule
-        </Button>
+          <Button
+            href="www.google.com"
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            Schedule
+          </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link
@@ -47,7 +53,22 @@ export default function HeaderLinks(props) {
             //target="_blank"
             className={classes.navLink}
           >
-            <LocationOn /> Location
+            Location
+          </Button>
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link
+          to={"/AboutUs"} //className={classes.link}
+          style={{ color: "unset" }}
+        >
+          <Button
+            //href="www.google.com"
+            color="transparent"
+            //target="_blank"
+            className={classes.navLink}
+          >
+            About Us
           </Button>
         </Link>
       </ListItem>

@@ -10,6 +10,7 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import LocationPage from "views/LocationPage/LocationPage.js";
+import SchedulePage from "views/SchedulePage/SchedulePage.js";
 
 //const result = require("dotenv").config();
 
@@ -22,7 +23,7 @@ ReactDOM.render(
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/location" component={LocationPage} />
-      <Route path="/" component={LocationPage} />
+      <Route path="/" component={SchedulePage} />
     </Switch>
   </Router>,
   document.getElementById("root")

@@ -43,7 +43,7 @@ export default function LocationPage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/mapwithmarkers.jpg")} />
+      <Parallax small filter image={require("assets/img/lost.jpg")} />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

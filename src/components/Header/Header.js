@@ -15,6 +15,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/material-kit-react/components/headerStyle.js";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(styles);
 
@@ -62,16 +63,21 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
   const brandComponent = (
-    <Button className={classes.title}>
-      <div style={{ margin: "0 1em" }}>
-        <img
-          src={require("assets/img/kulcenteredpng-min.png")}
-          alt="logo"
-          height="30px"
-        />
-      </div>
-      {brand}
-    </Button>
+    <Link
+      to={"/landing-page"} //className={classes.link}
+      style={{ color: "unset" }}
+    >
+      <Button className={classes.title}>
+        <div style={{ margin: "0 1em" }}>
+          <img
+            src={require("assets/img/kulcenteredpng-min.png")}
+            alt="logo"
+            height="30px"
+          />
+        </div>
+        {brand}
+      </Button>
+    </Link>
   );
   return (
     <AppBar className={appBarClasses}>
