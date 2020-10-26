@@ -42,7 +42,7 @@ export default function SchedulePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/calendar.jpg")} />
+      <Parallax small filter image={require("assets/img/groupHappy.jpg")} />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

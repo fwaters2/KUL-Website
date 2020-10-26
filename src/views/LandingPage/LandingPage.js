@@ -19,8 +19,9 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
-import TeamSection from "./Sections/TeamSection.js";
+
 import WorkSection from "./Sections/WorkSection.js";
+import { ExitToApp } from "@material-ui/icons";
 
 const dashboardRoutes = [];
 
@@ -38,7 +39,7 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -54,16 +55,32 @@ export default function LandingPage(props) {
                 team. What are you waiting for?
               </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=jorpW3z_AxA&t=11s"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
+              <GridContainer>
+                <GridItem xs={6}>
+                  <Button
+                    color="primary"
+                    size="lg"
+                    href="https://www.youtube.com/watch?v=jorpW3z_AxA&t=11s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fas fa-play" />
+                    Watch video
+                  </Button>
+                </GridItem>
+                <GridItem xs={6}>
+                  <Button
+                    color="danger"
+                    size="lg"
+                    href="https://kul-spring-20.firebaseapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExitToApp />
+                    Register
+                  </Button>
+                </GridItem>
+              </GridContainer>
             </GridItem>
           </GridContainer>
         </div>
@@ -71,7 +88,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <TeamSection />
+
           <WorkSection />
         </div>
       </div>

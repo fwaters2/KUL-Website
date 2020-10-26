@@ -28,12 +28,34 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="For Players"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent",
+          }}
+          //buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/standings" className={classes.dropdownLink}>
+              Standings
+            </Link>,
+            <Link to="/seasonstats" className={classes.dropdownLink}>
+              Season Stats
+            </Link>,
+
+            <Link to="/deals" className={classes.dropdownLink}>
+              KUL Card Deals
+            </Link>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Link
           to={"/schedule"} //className={classes.link}
           style={{ color: "unset" }}
         >
           <Button
-            href="www.google.com"
             color="transparent"
             target="_blank"
             className={classes.navLink}
