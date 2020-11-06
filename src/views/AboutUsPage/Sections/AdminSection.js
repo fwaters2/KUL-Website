@@ -8,6 +8,7 @@ import GridItem from "components/Grid/GridItem.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 import suzy from "assets/img/faces/Suzy.jpg";
 import brittney from "assets/img/faces/Brittney.jpg";
+import jamie from "assets/img/faces/Jamie.jpg";
 import jitesh from "assets/img/faces/Jitesh.jpg";
 import joann from "assets/img/faces/Joann.jpg";
 import dinah from "assets/img/faces/Dinah.jpg";
@@ -51,6 +52,13 @@ export default function AdminSection() {
       subheader: "Leadership Development",
       description:
         "Playing Ultimate since the dawn of the millenium and winning both the Team Spirit AND the championship last season, Jitesh is hoping to encourage and teach new leaders in the community as we make new memories during some competitive but spirited games this season!",
+      facebook: null,
+    },
+    {
+      name: "Jamie Lewis",
+      photo: jamie,
+      subheader: "Media Director",
+      description: "",
       facebook: null,
     },
     {

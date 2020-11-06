@@ -23,25 +23,26 @@ export default function StandingsPage(props) {
 
   const standingsData = useStandingsGetter().map((x, index) => [
     index + 1,
-    ...x
+    ...x,
   ]);
   const headers = ["#", "Team", "W", "L", "Pct", "PF", "PA", "+/-", "Spirit"];
 
-  const getMatches = useFirebaseGetToArray("matches");
-  React.useEffect(() => {
-    const unsubscribe = () => {
-      let uniqueDates = Array.from(
-        new Set(
-          getMatches.map(x =>
-            moment(x.datetime.toDate()).format("MMMM Do YYYY")
-          )
-        )
-      );
-      setUniqueDates(uniqueDates);
-    };
+  const getMatches = [];
+  //const getMatches = useFirebaseGetToArray("matches");
+  // React.useEffect(() => {
+  //   const unsubscribe = () => {
+  //     let uniqueDates = Array.from(
+  //       new Set(
+  //         getMatches.map((x) =>
+  //           moment(x.datetime.toDate()).format("MMMM Do YYYY")
+  //         )
+  //       )
+  //     );
+  //     setUniqueDates(uniqueDates);
+  //   };
 
-    return () => unsubscribe();
-  }, []);
+  //   return unsubscribe();
+  // }, [getMatches]);
   return (
     <div>
       <Header
@@ -50,7 +51,7 @@ export default function StandingsPage(props) {
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -68,11 +69,11 @@ export default function StandingsPage(props) {
             </div>
             <Table tableHead={headers} tableData={standingsData} />
           </div>
-          <div className={classes.container}>
+          {/* <div className={classes.container}>
             <div className={classes.description}>
               <h3>Game Results</h3>
             </div>
-            {uniqueDates.map(currentDate => (
+            {uniqueDates.map((currentDate) => (
               <>
                 <h6 style={{ textAlign: "center" }}>{currentDate}</h6>
                 <WeeklyResults
@@ -81,7 +82,7 @@ export default function StandingsPage(props) {
                 />
               </>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

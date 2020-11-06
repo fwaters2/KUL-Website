@@ -11,7 +11,7 @@ import {
   Money,
   LocalLibrary,
 } from "@material-ui/icons";
-import MenuBookIcon from "@material-ui/icons/MenuBook";
+// import MenuBookIcon from "@material-ui/icons/MenuBook";
 
 // core components
 import Header from "components/Header/Header.js";

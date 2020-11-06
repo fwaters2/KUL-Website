@@ -20,7 +20,7 @@ import {
   List,
   ListItem,
   ListItemText,
-  ListItemIcon
+  ListItemIcon,
 } from "@material-ui/core";
 import Parallax from "components/Parallax/Parallax";
 
@@ -38,7 +38,7 @@ export default function SchedulePage(props) {
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -49,17 +49,14 @@ export default function SchedulePage(props) {
             <IconHeader icon={Event} title="Schedule" />
             <div className={classes.description}>
               <p>
-                All Games take place from about noon until 6pm on Saturdays.
-                Because of COVID-19, this schedule is more subject to change
-                than usual. Stay tuned!
+                All Games take place from about noon until 6pm on Saturdays (or
+                Sunday 11/22).
               </p>
             </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <div>
-                  <Typography variant="h4">
-                    Spring 2020 Calendar Dates
-                  </Typography>
+                  <Typography variant="h4">Fall 2020 Calendar Dates</Typography>
                   <List>
                     <ListItem>
                       <ListItemIcon>
@@ -67,34 +64,43 @@ export default function SchedulePage(props) {
                       </ListItemIcon>
                       <ListItemText
                         primary="Opening Day"
-                        secondary="April 11th"
+                        secondary="October 31st"
                       />
                     </ListItem>
                     <ListItem>
                       <ListItemIcon>
                         <CalendarToday />
                       </ListItemIcon>
-                      <ListItemText primary="Week 2" secondary="April 18th" />
-                    </ListItem>
-                    <ListItem>
-                      <ListItemIcon>
-                        <CalendarToday />
-                      </ListItemIcon>
-                      <ListItemText primary="Week 3" secondary="May 4th" />
-                    </ListItem>
-                    <ListItem>
-                      <ListItemIcon>
-                        <CalendarToday />
-                      </ListItemIcon>
-                      <ListItemText primary="Week 4" secondary="May 16th" />
+                      <ListItemText
+                        primary="Round 2"
+                        secondary="November 14th"
+                      />
                     </ListItem>
                     <ListItem>
                       <ListItemIcon>
                         <CalendarToday />
                       </ListItemIcon>
                       <ListItemText
-                        primary="Finals (postponed due to COVID-19)"
-                        secondary="TBD"
+                        primary="Round 3"
+                        secondary="November 21st"
+                      />
+                    </ListItem>
+                    <ListItem>
+                      <ListItemIcon>
+                        <CalendarToday />
+                      </ListItemIcon>
+                      <ListItemText
+                        primary="Round 4"
+                        secondary="November 22nd"
+                      />
+                    </ListItem>
+                    <ListItem>
+                      <ListItemIcon>
+                        <CalendarToday />
+                      </ListItemIcon>
+                      <ListItemText
+                        primary="Finals"
+                        secondary="November 28th"
                       />
                     </ListItem>
                   </List>

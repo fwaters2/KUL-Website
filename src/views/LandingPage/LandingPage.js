@@ -69,16 +69,17 @@ export default function LandingPage(props) {
                   </Button>
                 </GridItem>
                 <GridItem xs={6}>
-                  <Button
+                  {/* <Button
                     color="danger"
                     size="lg"
                     href="https://kul-spring-20.firebaseapp.com/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    disabled
                   >
                     <ExitToApp />
                     Register
-                  </Button>
+                  </Button> */}
                 </GridItem>
               </GridContainer>
             </GridItem>
