@@ -5,7 +5,7 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import {
-  ShowChart,
+  // ShowChart,
   CardMembership,
   LocationOn,
   Money,
@@ -22,14 +22,14 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/locationPage.js";
 import IconHeader from "components/IconHeader/IconHeader";
 
-import { Icon } from "@iconify/react";
+// import { Icon } from "@iconify/react";
 
-import genderMale from "@iconify/icons-mdi/gender-male";
-import genderFemale from "@iconify/icons-mdi/gender-female";
+// import genderMale from "@iconify/icons-mdi/gender-male";
+// import genderFemale from "@iconify/icons-mdi/gender-female";
 import Maps from "components/Maps/Maps";
 
-const female = () => <Icon icon={genderFemale} />;
-const male = () => <Icon icon={genderMale} />;
+// const female = () => <Icon icon={genderFemale} />;
+// const male = () => <Icon icon={genderMale} />;
 
 const useStyles = makeStyles(styles);
 

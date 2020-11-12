@@ -42,7 +42,7 @@ export default function TeamSection() {
       photo: joe,
       subheader: "Mighty Hucks",
       description:
-        "Stepping in for Tim Zabinski (founder of Mighty Hucks), another first time manager, Joe is bringing his leadership expertise from the his success at organizing American Football here in Kaohsiung!",
+        "Stepping in for Tim Zabinski (founder of Mighty Hucks), first time manager, Joe is bringing his leadership expertise from the his success at organizing American Football here in Kaohsiung!",
       facebook: "https://www.facebook.com/joe.maher.543",
     },
     {
@@ -57,14 +57,16 @@ export default function TeamSection() {
       name: "Julia Wei",
       photo: julia,
       subheader: "Deez Nuts",
-      description: "",
+      description:
+        "First time manager Julia has already made a big splash on the KUL scene with the bold choice of 'Deez Nuts' for her team name/jersey design. Her team will not have to be worried about being boring this season!",
       facebook: "https://www.facebook.com/julia.wei.566",
     },
     {
       name: "Lucas Snarski",
       photo: lucas,
       subheader: "Port",
-      description: "",
+      description:
+        "Another first time manager, Lucas has become a BIG (and also VERY TALL) part of the ultimate scene since he came to town just over a year ago. Port will never have to worry about shade!",
       facebook: "https://www.facebook.com/lucas.snarski",
     },
     {

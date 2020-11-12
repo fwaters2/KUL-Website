@@ -41,15 +41,15 @@ export default function VolunteerSection() {
       photo: william,
       subheader: "Photographer",
       description:
-        "While not the only photographer in KUL, her shots now number in the thousands which is especially impressive since she is also playing!",
-      facebook: null,
+        "A man of many talents, William has shared his talents with KUL (check out his page with the link below) while still organizing many other events around Kaohsiung. Also need a Chinese tutor? William's your guy for that as well!",
+      facebook: "https://www.facebook.com/OzMelbournePhotographer",
     },
     {
       name: "Teresa Vega",
       photo: teresa,
       subheader: "Photographer",
       description:
-        "While not the only photographer in KUL, her KUL pictures now number in the thousands which is especially impressive since she is also playing!",
+        "Ever since she began playing, Teresa has been taking picture AND videos. Her KUL pictures now number in the thousands which is especially impressive since she is also still playing!",
       facebook: null,
     },
     {

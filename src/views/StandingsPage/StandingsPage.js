@@ -9,10 +9,11 @@ import Parallax from "components/Parallax/Parallax";
 import IconHeader from "components/IconHeader/IconHeader";
 import { FormatListNumbered } from "@material-ui/icons";
 import useStandingsGetter from "./useStandingsGetter";
-import WeeklyResults from "./WeeklyResults";
-import Firebase from "utils/Firebase";
-import moment from "moment";
-import useFirebaseGetToArray from "utils/useFirebaseGetToArray";
+// import WeeklyResults from "./WeeklyResults";
+// import Firebase from "utils/Firebase";
+// import moment from "moment";
+// import useFirebaseGetToArray from "utils/useFirebaseGetToArray";
+import Footer from "components/Footer/Footer";
 
 const useStyles = makeStyles(styles);
 
@@ -85,6 +86,7 @@ export default function StandingsPage(props) {
           </div> */}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

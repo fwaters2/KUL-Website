@@ -58,8 +58,9 @@ export default function AdminSection() {
       name: "Jamie Lewis",
       photo: jamie,
       subheader: "Media Director",
-      description: "",
-      facebook: null,
+      description:
+        "Jamie has been playing with KUL since season 1 and has has captained two teams to the championship. Now he has dedicated himself to promoting the Kaohsiung community and bringing people closer through social sporting events such as KUL and bowling",
+      facebook: "https://www.facebook.com/groups/2907721949325759/?ref=share",
     },
     {
       name: "Dinah Su",

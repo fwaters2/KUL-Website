@@ -33,9 +33,9 @@ export default function SeasonStatsPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
 
-  const initialStats = ["Undrafted", 0, 0, 0, 0];
-  const players = ["Forrest", "Dinah"];
-  const defaultData = players.map((player) => [player, ...initialStats]);
+  // const initialStats = ["Undrafted", 0, 0, 0, 0];
+  // const players = ["Forrest", "Dinah"];
+  // const defaultData = players.map((player) => [player, ...initialStats]);
   const femaleSeasonStats = useSeasonStatGetter("Female");
   const maleSeasonStats = useSeasonStatGetter("Male");
 

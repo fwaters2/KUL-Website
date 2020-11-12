@@ -40,9 +40,9 @@ export default function HeaderLinks(props) {
             <Link to="/standings" className={classes.dropdownLink}>
               Standings
             </Link>,
-            // <Link to="/seasonstats" className={classes.dropdownLink}>
-            //   Season Stats
-            // </Link>,
+            <Link to="/seasonstats" className={classes.dropdownLink}>
+              Season Stats
+            </Link>,
 
             // <Link to="/deals" className={classes.dropdownLink}>
             //   KUL Card Deals

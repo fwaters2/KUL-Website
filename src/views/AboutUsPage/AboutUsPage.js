@@ -19,6 +19,7 @@ import Parallax from "components/Parallax/Parallax";
 import TeamManagerSection from "./Sections/TeamManagerSection";
 import AdminSection from "./Sections/AdminSection";
 import VolunteerSection from "./Sections/VolunteersSection";
+import HistoryPage from "views/HistoryPage/HistoryPage";
 
 const useStyles = makeStyles(styles);
 
@@ -34,7 +35,7 @@ export default function AboutUsPage(props) {
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -56,6 +57,7 @@ export default function AboutUsPage(props) {
             <TeamManagerSection />
             <AdminSection />
             <VolunteerSection />
+            <HistoryPage />
           </div>
         </div>
       </div>
