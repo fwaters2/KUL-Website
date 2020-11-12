@@ -88,7 +88,7 @@ export default function TeamSection() {
   ];
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Our Spring 2020 Team Managers</h2>
+      <h2 className={classes.title}>Our Fall 2020 Team Managers</h2>
       <div>
         <GridContainer>
           {managerData.map((manager) => (

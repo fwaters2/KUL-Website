@@ -81,7 +81,7 @@ export default function AdminSection() {
   ];
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Our Spring 2020 Admin Team</h2>
+      <h2 className={classes.title}>Our Fall 2020 Admin Team</h2>
       <div>
         <GridContainer>
           {adminData.map((manager) => (

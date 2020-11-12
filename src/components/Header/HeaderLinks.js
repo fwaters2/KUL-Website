@@ -80,7 +80,7 @@ export default function HeaderLinks(props) {
           </Button>
         </Link>
       </ListItem>
-      {/* <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem}>
         <Link
           to={"/AboutUs"} //className={classes.link}
           style={{ color: "unset" }}
@@ -94,7 +94,7 @@ export default function HeaderLinks(props) {
             About Us
           </Button>
         </Link>
-      </ListItem> */}
+      </ListItem>
       {/* <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
