@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import Firebase from "utils/Firebase";
 
 const spiritScores = {
-  "Mighty Hucks": "12.00",
-  "Disc Jockeys": "12.00",
-  "Killa Bees": "11.67",
-  Discl3xia: "11.00",
-  Port: "10.67",
-  "Deez Nuts": "10.00",
+  "Mighty Hucks": "11.40",
+  "Disc Jockeys": "11.20",
+  "Killa Bees": "10.50",
+  Discl3xia: "10.70",
+  Port: "10.70",
+  "Deez Nuts": "10.80",
 };
 
 export default function useStandingsGetter() {
@@ -17,6 +17,7 @@ export default function useStandingsGetter() {
       .collection("standings")
 
       .orderBy("Pct", "desc")
+      .orderBy("plusMinus", "desc")
       .onSnapshot((querySnapshot) => {
         var standings = [];
         querySnapshot.forEach((doc) => {

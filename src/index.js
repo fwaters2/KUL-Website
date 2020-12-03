@@ -17,6 +17,7 @@ import AboutUsPage from "views/AboutUsPage/AboutUsPage.js";
 import DealsPage from "views/DealsPage/DealsPage.js";
 import StandingsPage from "views/StandingsPage/StandingsPage.js";
 import SeasonStatsPage from "views/SeasonStatsPage/SeasonStatsPage";
+import PrivacyPolicy from "views/PrivacyPolicy";
 
 var hist = createBrowserHistory();
 
@@ -35,7 +36,7 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
-
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,

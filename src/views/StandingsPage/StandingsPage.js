@@ -7,7 +7,7 @@ import styles from "assets/jss/material-kit-react/views/locationPage.js";
 import { makeStyles } from "@material-ui/core";
 import Parallax from "components/Parallax/Parallax";
 import IconHeader from "components/IconHeader/IconHeader";
-import { FormatListNumbered } from "@material-ui/icons";
+import { FormatListNumbered, Stars } from "@material-ui/icons";
 import useStandingsGetter from "./useStandingsGetter";
 // import WeeklyResults from "./WeeklyResults";
 // import Firebase from "utils/Firebase";
@@ -69,6 +69,18 @@ export default function StandingsPage(props) {
               <p>Standings determine the seedings for Finals</p>
             </div>
             <Table tableHead={headers} tableData={standingsData} />
+          </div>
+          <div className={classes.container}>
+            <div className={classes.description}>
+              <p>Finals Bracket</p>
+            </div>
+
+            <img
+              alt="bracket"
+              src={require("../../assets/img/FinalsBracket.png")}
+              width="100%"
+              style={{ margin: "0 0 2em 0" }}
+            />
           </div>
           {/* <div className={classes.container}>
             <div className={classes.description}>
